@@ -1,0 +1,9 @@
+.conteiner{
+    display: flex;justify-self: center;
+    width: 40%;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}

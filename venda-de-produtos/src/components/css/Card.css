@@ -1,0 +1,28 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+.conteiner{
+    display: flex;
+    flex-direction: column;justify-content: center;align-items: center;
+    gap: 0.9em;
+    padding: 0.5em; width: 20%; margin: 0.5em;
+    border: 2px solid rgb(0, 0, 0);border-radius: 0.6em;
+    font-size: 1.2em;
+}
+.Div{
+    display: flex; align-items: center;
+    font-size: 1.5em;
+    gap: 0.8em;
+}
+.btn{
+    border: 2px solid transparent;border-radius: 0.5em;
+    background-color: red;
+    color: white;
+    padding: 0.5em;
+}
+.imgCards{
+    width: 50%;
+    height: 50%;
+    border-radius: 2em;
+}
