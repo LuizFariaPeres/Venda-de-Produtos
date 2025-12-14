@@ -3,6 +3,7 @@ import Cadastrar from "./Cadastrar"
 import Menu from "../Menu"
 import Card from "../components/Card"
 import { data } from "react-router-dom"
+import './css/Podrutos.css'
 
 
 const API_Key =  'https://crudcrud.com/api/35abb0335e304b0fbe1c0ac2c597742a/tarefas'
@@ -34,10 +35,13 @@ function Produtos(){
 
     return(
         <div>
-            <h1>Produtos</h1>
+            <div className="title">
+
+                <h1>Produtos</h1>
+            </div>
             <Menu></Menu>
              <ul>
-                {produtos.length === 0 && <p>Nenhum produto Cadastrado</p>}
+                {produtos.length === 0 && <p style={{display:'flex', justifySelf:'center'}}>Nenhum produto Cadastrado</p>}
                 {produtos.map(item =>
                 (
                     <li>

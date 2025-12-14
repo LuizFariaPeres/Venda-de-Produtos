@@ -1,0 +1,21 @@
+.title{
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+    color: white;
+    padding: 1.3em;
+}
+
+.bloco{
+    display: flex;
+    justify-content: center;align-items: center;
+    flex-direction: column;
+    border: 2px solid black;
+    width:90%;min-height: 300px;
+    padding: 0.7em;margin-left: 2em;margin-top: 2em;
+    border-radius: 0.5em;
+    background-color: gray;
+    color: white;
+    gap: 2em;
+}
+

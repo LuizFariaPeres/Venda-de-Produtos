@@ -7,3 +7,27 @@
     flex-direction: column;
     gap: 2em;
 }
+.input{
+    display: flex;
+    padding: 0.3em;
+    border: 2px solid transparent;border-bottom: 2px solid gray;
+    border-radius: 0.5em;
+
+}
+.input:focus{
+    outline: none;
+}
+
+button{
+    border-radius: 2em;border: 2px solid gray;
+    padding: 0.5em;
+    color: white;
+    background-color: gray;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+    color: white;
+    padding: 1.3em;
+}

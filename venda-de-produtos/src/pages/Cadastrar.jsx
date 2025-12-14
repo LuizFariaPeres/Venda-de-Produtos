@@ -88,16 +88,18 @@ function Cadastrar(){
 
     return(
     <div>
-        <h1>Cadastrar</h1>
+        <div className="title">
+            <h1>Cadastrar</h1>
+        </div>
         <Menu></Menu>
         <div className="conteiner">
             <form className="form" onSubmit={handleSubmit}>
-                <input type="text" value={name} onChange={(e) => setName(e.target.value)}  
+                <input className="input" type="text" value={name} onChange={(e) => setName(e.target.value)}  
                 placeholder="Digite o Nome do Produto"/>
-                <input type="file"accept="image/*" onChange={handleImage}/>
-                <input type="text" value={text} onChange={(e) =>{setText(e.target.value)}}
+                <input className="input" type="file" accept="image/*" onChange={handleImage}/>
+                <input className="input" type="text" value={text} onChange={(e) =>{setText(e.target.value)}}
                 placeholder="Descrição do produto" />
-                <input type="text" value={price} onChange={(e) =>{setPrice(e.target.value)}}
+                <input className="input" type="text" value={price} onChange={(e) =>{setPrice(e.target.value)}}
                 placeholder="Digite o preço"/>
 
                 <button type="submit">Cadastrar</button>
